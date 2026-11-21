@@ -6,10 +6,10 @@ Tool parts that I chose: To be decided
 
 - Step 0.1, Chrome version: 157.0.8103.79
 - Step 0.3, ChromeDriver version: 157.0.8103.79
-- Step 0.4, locator of Pizza, Please!:
-- Step 0.4, locator of Excluded tools:
-- Step 0.4, locator of Must be vegetarian:
-- Step 0.4, locator of Custom Pizza Name:
+- Step 0.4, locator of Pizza, Please!: CSS `button[name="pizza-please"]`
+- Step 0.4, locator of Excluded tools: XPath `//label[normalize-space()='Excluded tools']/following-sibling::select`
+- Step 0.4, locator of Must be vegetarian: CSS `input#default-checkbox`
+- Step 0.4, locator of Custom Pizza Name: CSS `input#pizza-name`
 - Step 0.5, pizza name, tool and calories of the run by hand:
 
 | Step | Actual result | Pass or fail |
