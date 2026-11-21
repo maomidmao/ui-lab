@@ -9,3 +9,9 @@ cypress/cypress/downloads/
 .DS_Store
 .idea/
 .vscode/
+
+# Temporary Robot Framework results
+robot/output.xml
+robot/log.html
+robot/report.html
+robot/*.png

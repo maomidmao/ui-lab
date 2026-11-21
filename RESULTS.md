@@ -1,6 +1,6 @@
 # UI lab results
 
-Tool parts that I chose: To be decided
+Tool parts that I chose: Robot Framework (Part 3); second tool to be confirmed
 
 ## Part 0
 
@@ -21,6 +21,13 @@ Tool parts that I chose: To be decided
 | 5    | Clicking Love it! while logged out displayed a message asking the user to log in first. | Pass |
 | 6    | Admin page displayed "Latest pizza recommendations". | Pass |
 | 7    | Pizza appeared in the list with `Scissors`, matching the recommendation. | Pass |
+
+## Part 3: Robot Framework
+
+- robot --version: Robot Framework 7.5.1 (Python 3.11.5 on win32)
+- Step 3.2, failure message for the wrong title: `Title should have been 'Web Form' but was 'Web form'.`
+- Step 3.8, run 1, result, elapsed time and pizza name:
+- Step 3.8, run 2, result, elapsed time and pizza name:
 
 ## Part B
 
