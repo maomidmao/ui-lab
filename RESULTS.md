@@ -26,8 +26,8 @@ Tool parts that I chose: Robot Framework (Part 3); second tool to be confirmed
 
 - robot --version: Robot Framework 7.5.1 (Python 3.11.5 on win32)
 - Step 3.2, failure message for the wrong title: `Title should have been 'Web Form' but was 'Web form'.`
-- Step 3.8, run 1, result, elapsed time and pizza name:
-- Step 3.8, run 2, result, elapsed time and pizza name:
+- Step 3.8, run 1, result, elapsed time and pizza name: PASS (1 test); suite elapsed time 9.976 seconds; `Lab Pizza 20261122-005705`.
+- Step 3.8, run 2, result, elapsed time and pizza name: PASS (1 test); suite elapsed time 9.717 seconds; `Lab Pizza 20261122-005813`.
 
 ## Part B
 
