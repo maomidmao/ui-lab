@@ -41,10 +41,16 @@ Tool parts that I chose: Robot Framework (Part 3) and Cypress (Part 4)
 
 ## Part B
 
-1.
-2.
-3.
-4.
-5.
-6.
-7.
+1. Three number boxes use the same ID, `floating_filled`, so the test cannot use that ID to find only the calories box. Instead, it finds the box by looking for the text of its label. The page could give each box a different ID, such as `max-calories`, so the test can find the right one directly.
+
+2. This check is called a consistency oracle. An oracle is a way to decide whether a test result is correct; here, the test checks whether two parts of the site agree. For example, it would catch a problem if the recommendation showed Scissors but the admin list showed Knife for the same pizza.
+
+3. The test could check whether every ingredient in the pizza is vegetarian. To do this, it would need information about each ingredient from the page or the API response. Right now, the test only checks that the vegetarian box is selected; it does not check the ingredients.
+
+4. Robot Framework used wait keywords to wait for the page, while Cypress tried again until elements and results appeared, and also waited for the pizza API response. I think Robot might be faster for me to write and easier to read because its keywords look like ordinary text; I am less confident reading and writing JavaScript. We did not measure the writing time, so this is only my impression. Cypress results were easy to check, and I liked that it recorded videos; Robot also provided a detailed HTML log with screenshots.
+
+5. My team chose Robot Framework for Project 2 because they completed this lab before me and had already decided to use it when we started the project. I think Robot is a good choice because its keywords are easy to read and the test results have a detailed log. Using the same tool as my team also makes it easier for me to follow and work on the project tests.
+
+6. If the calories-box locator changed, I would update `${MAX CALORIES}` in `robot/resources/quickpizza.resource`. The steps that use the box read its locator from that file. This means I do not need to change the locator in the main test file, `pizza_scenario.robot`.
+
+7. Cypress clears cookies before each test. A cookie helps keep the browser connected to the same QuickPizza server, so a second test might open an admin list on a different server and not find the pizza. Keeping all the steps in one test helps it find the pizza and compare the tool.
