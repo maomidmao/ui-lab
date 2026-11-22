@@ -1,6 +1,6 @@
 # UI lab results
 
-Tool parts that I chose: Robot Framework (Part 3); second tool to be confirmed
+Tool parts that I chose: Robot Framework (Part 3) and Cypress (Part 4)
 
 ## Part 0
 
@@ -28,6 +28,16 @@ Tool parts that I chose: Robot Framework (Part 3); second tool to be confirmed
 - Step 3.2, failure message for the wrong title: `Title should have been 'Web Form' but was 'Web form'.`
 - Step 3.8, run 1, result, elapsed time and pizza name: PASS (1 test); suite elapsed time 9.976 seconds; `Lab Pizza 20261122-005705`.
 - Step 3.8, run 2, result, elapsed time and pizza name: PASS (1 test); suite elapsed time 9.717 seconds; `Lab Pizza 20261122-005813`.
+
+## Part 4: Cypress
+
+- node --version, npm --version and npx cypress version: Node.js v24.13.0; npm 11.6.2; Cypress package and binary 16.2.1. Cypress verification passed.
+- Step 4.3, failure message for the wrong title:
+- Step 4.6, tool and calories in the answer of POST /api/pizza:
+- Step 4.7, the line of the admin list that shows your pizza:
+- Step 4.8, run 1, result, duration and pizza name:
+- Step 4.8, run 2, result, duration and pizza name:
+- Step 4.9 (optional), browser and result:
 
 ## Part B
 
