@@ -33,7 +33,7 @@ Tool parts that I chose: Robot Framework (Part 3) and Cypress (Part 4)
 
 - node --version, npm --version and npx cypress version: Node.js v24.13.0; npm 11.6.2; Cypress package and binary 16.2.1. Cypress verification passed.
 - Step 4.3, failure message for the wrong title: `Timed out retrying after 10000ms`; actual title `'Web form'`, expected `'Web Form'`.
-- Step 4.6, tool and calories in the answer of POST /api/pizza:
+- Step 4.6, tool and calories in the answer of POST /api/pizza: `Pizza cutter` and `650` calories, observed in Chrome DevTools for the manual request (default maximum: 1000).
 - Step 4.7, the line of the admin list that shows your pizza:
 - Step 4.8, run 1, result, duration and pizza name:
 - Step 4.8, run 2, result, duration and pizza name:
