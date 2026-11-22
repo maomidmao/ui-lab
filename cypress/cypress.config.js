@@ -6,6 +6,7 @@ module.exports = defineConfig({
   viewportHeight: 1600,
   // Allow page elements up to ten seconds to appear.
   defaultCommandTimeout: 10000,
+  video: true,
   e2e: {
     setupNodeEvents(on, config) {
       // implement node event listeners here
